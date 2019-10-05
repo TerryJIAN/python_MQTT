@@ -5,6 +5,7 @@ step1 pip install paho-mqtt
 step2 vi /etc/rc.local  
 加入
 sleep 10
-python /robot/app.py
+python /IoT/mqtt.py
+
  
 
