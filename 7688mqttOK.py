@@ -18,7 +18,7 @@ if __name__=='__main__':
          client.on_connect = on_connect
          client.on_message = on_message
 
-         HOST="192.168.1.14"
+         HOST="192.168.2.111"
          client.connect(HOST, 1883, 60)
 
          user = "DUO"
